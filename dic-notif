@@ -1,0 +1,13 @@
+#!/bin/sh
+declare -i x=0
+p=p
+echo "$(shuf text)\n" > text
+cat text | while read line
+	do
+		x=$((x+1))
+		english=$(cut -f 1 text | sed -n "$x$p")
+		persian=$(cut -f 2 text | sed -n "$x$p")
+		link="https://translate.google.com/?text=$english"
+		notify-send -u critical -i /home/mahdi/Downloads/icon.ico "$english" "<a href=\"$link\"> $persian </a>"
+		sleep 5m
+	done
