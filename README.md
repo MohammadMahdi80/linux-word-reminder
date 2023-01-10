@@ -26,5 +26,8 @@ bash script for word reminder and help to learning english.
 >$ sh dic-notif
 >```
 
+![image](https://user-images.githubusercontent.com/82968741/211560245-4f42888c-684a-4913-9e67-0d40a81cff70.png)
+
+
 
 
