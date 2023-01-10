@@ -33,5 +33,10 @@ bash script for word reminder and help to learning english.
 notify-send -u critical -i /"your path"/icon.ico "$english" "<a href=\"$link\"> $persian </a>"
 ```
 
+* determine period of notifications:
+```
+sleep 5m
+```
+
 
 
