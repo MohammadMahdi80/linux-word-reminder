@@ -22,7 +22,6 @@ bash script for word reminder and help to learning english.
 
 
 * run script:
-* >
 >```
 >$ sh dic-notif
 >```
