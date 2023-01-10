@@ -18,7 +18,7 @@ bash script for word reminder and help to learning english.
 >![image](https://user-images.githubusercontent.com/82968741/211554581-7e64992b-13df-4d3e-9905-29c5b7cdb88f.png)
 
 
-* pased data to a file located in `dic-notif` file.
+* paste data to a file located in `dic-notif` directory.
 
 * run script:
 >```
@@ -30,7 +30,7 @@ bash script for word reminder and help to learning english.
 
 * you can change icon of notifications in script:
 ```
-notify-send -u critical -i /`path`/icon.ico "$english" "<a href=\"$link\"> $persian </a>"
+notify-send -u critical -i /"your path"/icon.ico "$english" "<a href=\"$link\"> $persian </a>"
 ```
 
 
